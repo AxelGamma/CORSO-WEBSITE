@@ -1,0 +1,24 @@
+{
+  "name": "bs5-simple-starter",
+  "version": "1.0.0",
+  "description": "Simple workflow for working with and customizing Bootstrap 5",
+  "main": "./src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch ./public/scss:./public/css"
+  },
+  "author": "Brad Traversy",
+  "license": "MIT",
+  "devDependencies": {
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "bootstrap": "^5.2.3",
+    "nodemon": "^3.1.7",
+    "sass": "^1.62.0"
+  },
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^4.21.0"
+  }
+}
