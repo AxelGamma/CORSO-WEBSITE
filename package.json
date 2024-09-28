@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon ./src/index.js",
-    "sass:build": "sass --no-source-map scss:css",
+    "sass:build": "sass --no-source-map ./public/scss:./public/css",
     "sass:watch": "sass --no-source-map --watch ./public/scss:./public/css"
   },
   "author": "Brad Traversy",
